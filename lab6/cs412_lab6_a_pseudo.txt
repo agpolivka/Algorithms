@@ -1,0 +1,38 @@
+// 0-1 knapsack problem
+
+# Assume the list_items is a list of tuples
+# where the price is the first item and the 
+# weight is the second item in the tuple.
+# The knapsack_weight is the maximum amount of
+# weight the knapsack can carry
+# Index is the item we are looking at currently
+knapsack01(list_items, knapsack_weight, index)
+
+    # have a base case check to see if the 
+    # weight of the current item would put
+    # us over our knapsack weight
+
+    # have a base case check to see if 
+    # we only have no items left in the list
+
+    # have a price variable that takes the
+    # current items price, based on the index, and adds 
+    # the weight to our knapsack
+    # and continues the recursive call
+
+    # have a different price variable that doesn't
+    # add the current item price and doesn't
+    # add tbe weight to our knapsack variable but 
+    # continues the recursive calls
+
+    # check the values on which one has a higher ratio
+    # of price to weight
+
+    # return the value
+
+Reflecttion:
+    Is the algorithm you developed for the fractional knapsack problem guaranteed to find 
+    an optimal solution for the 0-1 knapsack problem?
+    
+    
+    Provide an example or an argument to support your conclusion.  

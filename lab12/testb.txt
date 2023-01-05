@@ -1,0 +1,2 @@
+(a or not a) and not b
+a b
